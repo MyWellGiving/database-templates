@@ -7,16 +7,14 @@ Parameters:
       Type: String
 
     DatabaseInstanceType:
-        Default: db.t2.small
+        Default: db.r4.large
         AllowedValues:
-            - db.t2.small
-            - db.t2.medium
-            - db.r4.large
-            - db.r4.xlarge
-            - db.r4.2xlarge
-            - db.r4.4xlarge
-            - db.r4.8xlarge
-            - db.r4.16xlarge
+             - db.r4.large
+             - db.r4.xlarge
+             - db.r4.2xlarge
+             - db.r4.4xlarge
+             - db.r4.8xlarge
+             - db.r4.16xlarge
         Description: "The instance type to use for the database. Pricing: https://aws.amazon.com/rds/aurora/pricing/"
         Type: String
 
